@@ -19,9 +19,10 @@ function permute(letters) {
     // If the input string is empty, add an empty string to the result array
     if (letters.length === 0) {
         result.push(''); 
+    }
         // Return the result array
-        return result; 
-    } 
+        return result;  
+    
 }
 // Log the permuted strings to the console
 console.log(permute(letters).join(" "))
